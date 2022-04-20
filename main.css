@@ -67,7 +67,10 @@ a{
     max-width: fit-content;
 }
 
-.projects li:hover
-{
-background-color:rgba(98, 98, 98, 0.9);
+
+@media screen and (min-width: 1200px) {
+        .projects li:hover
+        {
+        background-color:rgba(98, 98, 98, 0.9);
+        }
 }
